@@ -1,0 +1,34 @@
+#headingOne {
+    color: blue;
+}
+
+.heading-one {
+    color: green;
+}
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: green;
+}
+
+.heading-two {
+    color: green;
+}
+#headingThree {
+    color: yellow;
+}
+
+.first-para,.second-para  {
+    color: blue;
+}
+.first-para span{
+    color: orange;
+    font-size: 30px;
+    background-color: yellowgreen;
+}
+.second-para span {
+    color: red;
+}
