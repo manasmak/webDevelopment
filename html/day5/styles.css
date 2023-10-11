@@ -1,0 +1,42 @@
+/*specificity: 2*/
+/* p span { 
+    color: red;
+} */
+
+/*specificity: 11*/
+span.kaka.mottu {
+    color: green;
+}
+/* div p span {
+    color: orange;
+    specificity: 3
+} */
+/* .bro {
+    color: orange;
+    specificity: 10
+} */
+
+/* span.bro {
+    color: orange;
+    specificity: 11
+} */
+/* .bro.harnoor {
+    color: orange;
+    specificity: 20
+} */
+/* span.bro.harnoor {
+    color: orange;
+    specificity: 21
+} */
+/* span.harnoor.bro {
+    color: orange;
+    specificity: 21
+} */ 
+/* p span.bro {
+    color: orange;
+    specificity: 12
+} */
+div p span.harnoor {
+    color: orange;
+}
+/* specificity: 13 */
