@@ -1,6 +1,7 @@
 p {
     color: red;
     border: 1px solid black;
+    font-weight:bold;
     /* padding-left: 10px;
     padding-top: 20px;
     padding-right: 20px;
@@ -26,3 +27,6 @@ p {
     color: orange;
 
 } */
+li {
+    list-style-type: none;
+}
