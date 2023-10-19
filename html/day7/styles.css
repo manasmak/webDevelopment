@@ -1,0 +1,9 @@
+p {
+    color: orange;
+    background-color: greenyellow;
+    width: 80%;
+}
+
+label {
+    display: none;
+}
