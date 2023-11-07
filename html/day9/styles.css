@@ -1,0 +1,21 @@
+.box {
+    background-color: black;
+    background-image: url(../manas-headshot.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: left;
+    background-attachment: scroll;
+}
+h1 {
+    color: green;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    writing-mode: vertical-lr;
+}
+p {
+    color: green;
+    border-top: dashed orange;
+    border-bottom: double red;
+    border-bottom-left-radius: 10px;
+}

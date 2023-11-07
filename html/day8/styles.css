@@ -1,12 +1,6 @@
 /* body {
     font-size: 20px !important;
-}
-ul {
-    color: rebeccapurple;
-}
-ul li:first-child {
-    color: blue;
-} */
+}*/
 
 /* a {
     display: block;
@@ -15,7 +9,10 @@ ul li:first-child {
 div {
     display: inline;
 } */
-
-a {
-    
+li {
+    display: inline-block;
+    border: 2px solid blue;
+    padding: 3px;
 }
+/* why does display inline-block does not apply to li when i apply to ul, 
+why doesn't li inherit the same from ul? */
