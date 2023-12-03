@@ -1,0 +1,36 @@
+/* body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+} "*" can be used as a replacement to body, as its a UNIVERSAL SELECTOR. */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    background-color: black;
+    color: green;
+}
+#first {
+    color: red;
+}
+.second, .highlight {
+    color: purple;
+    font-family: monospace;
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+/* #first p {
+    color: orangered;
+    OR
+} */
+#first>p {
+    color: orangered;
+}
+button:hover {
+    color: red;
+    /* this is called a pseudo selector */
+}
+.important {
+    color: beige !important;
+}

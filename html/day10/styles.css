@@ -1,0 +1,25 @@
+.mottu {
+    height: 300px;
+    width: 300px;
+    border: 1px solid blue;
+    /* Takes the reference point as the original position*/
+    /* position: relative; */
+    padding: 20px;
+    /* top: 10px;
+    left: 10px; */
+}
+.kaka {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    margin: 0;
+    /* Takes the reference point as the first relative parent*/
+    /* position: absolute; */
+    /* top: 0px;
+    left: 0px; */
+
+    /* Takes the reference point as window and is fixed to the document.*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}

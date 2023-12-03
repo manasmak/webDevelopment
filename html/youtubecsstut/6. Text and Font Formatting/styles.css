@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+h1 {
+    color: blueviolet;
+    /* text-align: inherit; */
+    /* text-align: center; */
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+p {
+    color: brown;
+    /* text-align: left */
+    /* text-indent: 80px; */
+    /* letter-spacing: 0.1rem; */
+    /* line-spacing: 1.6rem  */
+}
+
+a {
+    /* text-align: center; */
+    text-decoration: overline;
+    /* OR */
+    text-decoration: line-through;
+    text-decoration-style: double;
+    /* OR */
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;    
+    /* links automatically get text decoration set as underline, 
+    as it appears different that this part of thext is clickable. */
+}
+
+
+ul.mottu li a:hover .kaka {
+    color: red;
+}
+
+.mottu.kaka h3 a:active .kaka{
+    color: brown;
+}
